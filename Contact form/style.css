@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	background: #eeeeee;
+	padding: 0;
+}
+.container{
+            width: 80%;
+            margin: auto;
+}
+.contact{
+	     width: 50%;
+	     background: #ffffff;
+	     margin: 100px auto 0;
+	     padding: 15px;
+
+}
+.contact input[type="text"],
+.contact input[type="password"],
+.contact input[type="email"],
+.contact textarea{
+	       display: block;
+	       width: 100%;
+	       background: #ffffff;
+	       box-sizing: border-box;
+	       margin-bottom: 12px;
+	       font-size: 17px;
+	       font-family: tahoma;
+	       padding: 7px;
+	       border-radius: 5px;
+
+}
+.contact input[type="text"],
+.contact input[type="password"],
+.contact input[type="email"]{
+	          width: 70%;
+}
+.contact input[type="text"]:focus{
+	              border: 1px solid green;
+	              box-shadow: 0 0 3px 1px red inset;
+}
+.contact input[type="password"]:focus{
+	          border: 1px solid green;
+	          box-shadow: 0 0 3px 1px red inset;
+
+}
+.contact input[type="email"]:focus{
+                   border: 1px solid green;
+	              box-shadow: 0 0 3px 1px red inset;
+
+}
+.contact textarea:focus{
+	           border: 1px solid green;
+	           box-shadow: 0 0 3px 1px red inset;
+}
+.contact input[type="reset"],
+.contact input[type="submit"]{
+                   font-size: 17px;
+                   font-family: tahoma;
+                   padding: 5px 10px;
+                   border-radius: 3px;
+                   border: 1px solid #ccc;
+                   cursor: pointer;
+                   margin-right: 5px;
+}
+.contact input[type="reset"]:hover{
+                   background: red;
+                   color: white;
+}
+.contact input[type="submit"]:hover{
+	            background: green;
+	            color: white;
+}

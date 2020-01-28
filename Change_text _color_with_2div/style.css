@@ -1,0 +1,40 @@
+body{
+	 margin: 0;
+}
+.box{
+	 height: 100%;
+	 width: 100%;
+	 position: absolute;
+	 overflow: hidden;
+	 background: #f1c40f;
+}
+.box1{
+	   position: absolute;
+	   top: 0;
+	   left: 0;
+	   width: 50%;
+	   height: 100%; 
+	   background: #e67e22;
+	   color:#ecf0f1;
+	   overflow: hidden;
+	   border-right: 1px solid #333;
+}
+.sliding{
+	  position: absolute;
+	  top: 50%;
+	  font-size: 5em;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  text-transform: uppercase;
+	  font-family: arial black;
+	  animation: scrolling 15s linear infinite;
+}
+@keyframes scrolling{
+	            0%{
+	            	 transform: translate(0, -50%);
+	            }  
+	               100%{
+	            	 transform: translate(-50%, -50%);
+	            }  
+	             
+}

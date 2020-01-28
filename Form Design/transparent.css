@@ -1,0 +1,65 @@
+body{
+	margin:0;
+	background-image: url(photo-1500382017468-9049fed747ef.jpg);
+	background-size: cover;
+}
+.mainform{
+	position: relative;
+	text-align: center;
+	margin: 30vh auto 0;
+    background-color: rgba(0,0,0,.3);
+	font-family: sans-serif;
+	box-sizing: border-box;
+	border-radius: 5px;
+	width: 300px;
+	padding: 50px 40px 40px;
+}
+.mainform img{
+	width: 100px;
+	top:0;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+.mainform h3{
+	font-size: 20px;
+}
+.input{
+	     position: relative;
+}
+.input input{
+            padding: 5px 5px 3px 20px;
+            margin-bottom: 15px;
+            width: 100%; 
+            display: block;
+            border-color: 1px solid rgba(0,0,0,.4);
+            background: rgba(0,0,0,.4);
+            transition: 0.25s;
+}
+.input input:focus{
+	       border: 1px solid #3498db;
+}
+.input span{
+            top:5px;
+            left: 6px;
+            position: absolute;
+            color: #fff;
+}
+.mainform input[type="Submit"]{
+	         display: inline-block;
+	         width: 50%;
+	         padding: 5px;
+	         background: rgba(0,0,0,.6);
+             border: 1px solid rgba(0,0,0,.6);
+             color: rgba(0,0,0,.7);
+}
+.mainform input[type="Submit"]:hover{
+                 background-color: #3498db;
+} 
+.mainform a{
+	  display: block;
+	  text-decoration: none;
+	  color: #fff;
+	  margin-top: 15px;
+	  
+}

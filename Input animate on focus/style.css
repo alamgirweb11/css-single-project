@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+}
+form{
+	  width: 80%;
+	  margin: auto;
+}
+
+form input,form textarea{
+            font-family: sans-serif;
+            font-size: 16px;
+            display: block;
+            width: 200px;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            transition: 1s;
+}
+form textarea{
+	    width: 400px;
+}
+form input:focus{
+	    width: 600px;
+}
+form textarea:focus{
+	    width: 600px;
+	    height: 400px;
+}
