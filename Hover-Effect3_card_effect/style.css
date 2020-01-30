@@ -1,0 +1,130 @@
+.title{
+	  color: #f1c40f;
+	  text-transform: capitalize;
+	  font-size: 60px;
+	  margin-left: 20%;
+	  position: relative;
+	  display: inline-block;
+}
+.title:before{
+	     content: "";
+	     display: block;
+	     clear: both;
+	     height: 10px;
+	     width: 0%;
+	     background: #e74c3c;
+	     top: 100%;
+	     left: 0%;
+	     position: absolute;
+	     transition: .25s;
+}
+.title:after{
+	     content: "";
+	     display: block;
+	     clear: both;
+	     height: 10px;
+	     width: 0%;
+	     background: #e74c3c;
+	     top: 100%;
+	     right: 0%;
+	     position: absolute;
+	     transition: .25s;
+}
+.title:hover:before{
+	      width: 50%;
+}
+.title:hover:after{
+	      width: 50%;
+}
+
+.title1{
+	  color: #f1c40f;
+	  text-transform: capitalize;
+	  font-size: 60px;
+	  margin-left: 20%;
+	  position: relative;
+	  display: inline-block;
+}
+.title1:before{
+	     content: "";
+	     display: block;
+	     clear: both;
+	     height: 10px;
+	     width: 0%;
+	     background: #e74c3c;
+	     top: 100%;
+	     left: 50%;
+	     position: absolute;
+	     transition: .25s;
+}
+.title1:after{
+	     content: "";
+	     display: block;
+	     clear: both;
+	     height: 10px;
+	     width: 0%;
+	     background: #e74c3c;
+	     top: 100%;
+	     right: 50%;
+	     position: absolute;
+	     transition: .25s;
+}
+.title1:hover:before{
+	      width: 50%;
+}
+.title1:hover:after{
+	      width: 50%;
+}
+.box{
+	  background: #3498db;
+	  width: 200px;
+	  height: 300px;
+	  margin: 0 auto 50px;
+	  position: relative;
+	   overflow: hidden;
+
+
+	
+}
+.box1{
+	   width: 200px;
+	  height: 300px;
+	  background: black;
+	  opacity: .2;
+	  position: absolute;
+	  right: 100%;
+	  transition: .25s;
+
+}
+.box:hover .box1{
+	     right: 0;
+}
+.box2{
+	  background: #3498db;
+	  width: 200px;
+	  height: 300px;
+	  margin: auto;
+	  position: relative;
+	   overflow: hidden;
+
+	
+}
+.box3{
+	   width: 200px;
+	  height: 300px;
+	  background: black;
+	  opacity: .2;
+	  position: absolute;
+	  right: 100%;
+	  left: 100%;
+	  top: 100%;
+	  bottom: 100%;
+	  transition: .25s;
+
+}
+.box2:hover .box3{
+	     right: 0;
+	     top: 0; 
+	     bottom: 0;
+	     left:  0;
+}

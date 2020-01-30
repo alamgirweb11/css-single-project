@@ -1,0 +1,79 @@
+.planbox{
+              width: 300px;
+              border: 1px solid #ccc;
+              margin: 100px auto 0;
+              text-align: center;
+              font-family: sans-serif;
+              transition: 1s;
+              
+}
+
+.title{
+           
+}
+.pricing{
+       background: #34495e;
+       color: white;
+       padding: 25px 0;
+       
+       position: relative;
+
+}
+
+
+.pricing::after {
+
+    position: absolute;
+    content: "";
+    display: block;
+    clear: both;
+    border-top: 30px solid #34495e;
+    border-left: 152px solid transparent;
+    border-right: 152px solid transparent;
+    bottom: -21%;
+    left: -1%;
+    margin-top: 10px;
+
+}
+
+.pricing h1{
+            font-size: 2.5em;
+            margin: 10px 0 15px;
+}
+.pricing h1 span{
+	         font-size: 15px;
+}
+.pricing a{
+             background: #ecf0f1;
+             color: #95a5a6;
+             text-decoration: none;
+             font-size: 15px;
+             padding: 10px 20px;
+             border-radius: 3px;
+             font-weight: 600;
+             text-transform: uppercase;
+
+}
+.pricing a:hover{
+
+               background: #1abc9c;
+}
+.price-des{
+	          margin-top: 20px;
+}
+.price-des ul{
+	         list-style: none;
+	         margin: 0;
+	         padding: 0;
+}
+.price-des ul li{
+	        border-bottom: 1px solid #f2f2f2;
+	        padding: 10px 0;
+}
+.price-des ul li p{
+	margin: 0;
+}
+.planbox:hover{
+	        box-shadow: 0 0 6px 6px #ccc;
+	        transform: scale(1.1);
+}
