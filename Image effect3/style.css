@@ -1,0 +1,81 @@
+.boxA{
+	 height: 300px;
+	 width: 300px;
+	 margin:auto;
+	 position: relative;
+	 overflow: hidden;
+	 
+}
+.boxA img{
+	    height: 100%;
+	    width: 100%;
+	    display: block;
+
+}
+.box1{
+
+	height: 100%;
+	width: 100%;
+	background: black;
+	top: 0%;
+	left: 0;
+	position: absolute;
+	transition: 1s;
+	transform: scale(0);
+}
+.boxA:hover .box1{
+	     transform: scale(1);
+	     opacity: .8;
+}
+.text1{
+	      position: absolute;
+	      text-align: center;
+	      font-size: 17px;
+	      top: 50%;
+	      left: 50%;
+	      transform: translate(-50%,-50%);
+	      color: #fff;
+
+}
+/*box 2 design*/
+.boxB{
+	 height: 300px;
+	 width: 300px;
+	 margin:auto;
+	 position: relative;
+	 overflow: hidden;
+	 
+}
+.boxB img{
+	    height: 100%;
+	    width: 100%;
+	    display: block;
+
+}
+.box2{
+
+	height: 40%;
+	width: 100%;
+	background: black;
+	top: 100%;
+	left: 0;
+	position: absolute;
+	transition: 1s;
+	
+}
+.boxB:hover .box2{
+	     top: 60%;
+	     opacity: .8;
+}
+.text2{
+	      position: absolute;
+	      text-align: center;
+	      font-size: 17px;
+	      top: 50%;
+	      left: 50%;
+	      transform: translate(-50%,-50%);
+	      color: #fff;
+
+}
+
+
